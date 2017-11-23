@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+exec chpst -u odoo /usr/bin/python3 /opt/odoo/sources/odoo/openerp-server -c /opt/odoo/etc/odoo.conf
