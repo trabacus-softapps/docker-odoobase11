@@ -12,7 +12,7 @@ header "Installing Odoo..."
 
 ## Install Odoo.
 run sudo -i -u odoo
-curl -Lf -o /opt/odoo/odoo.tar.gz http://nightly.odoo.com/11.0/nightly/src/odoo_11.0.20180131.tar.gz
+curl -Lf -o /opt/odoo/odoo.tar.gz http://nightly.odoo.com/11.0/nightly/src/odoo_11.0.20171122.tar.gz
 run mkdir -p /opt/odoo/{bin,etc,sources/odoo/addons,additional_addons,data} && \
         cd /opt/odoo/sources/odoo && \
         tar -xvf /opt/odoo/odoo.tar.gz --strip 1 && \
