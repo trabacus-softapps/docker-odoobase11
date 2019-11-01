@@ -2,7 +2,7 @@
 #Inspiration 2: https://github.com/justnidleguy/
 #Inspiration 3: https://bitbucket.org/xcgd/ubuntu4b
 
-FROM softapps/docker-ubuntubaseimage:PY3
+FROM softapps/docker-ubuntubaseimage:PY37
 MAINTAINER Arun T K <arun.kalikeri@xxxxxxxx.com>
 
 ADD . /pd_build
