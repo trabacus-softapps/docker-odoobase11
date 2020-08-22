@@ -5,7 +5,7 @@ source /pd_build/buildconfig
 header "Installing Odoo Runint Script... "
 
 ## Install Odoo runit service.
-run mkdir /etc/service/odoo
+run mkdir -p /etc/service/odoo
 run cp /pd_build/runit/odoo /etc/service/odoo/run
 run touch /etc/service/odoo/down
 header "Installing Odoo..."
